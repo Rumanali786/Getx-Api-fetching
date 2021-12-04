@@ -35,19 +35,16 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(16),
             child: Row(
-              children: [
-                const Expanded(
+              children: const [
+                Expanded(
                   child: Text(
-                    'ShopX',
+                    'Api Fetching',
                     style: TextStyle(
                         fontFamily: 'avenir',
                         fontSize: 32,
                         fontWeight: FontWeight.w900),
                   ),
                 ),
-                IconButton(
-                    icon: Icon(Icons.view_list_rounded), onPressed: () {}),
-                IconButton(icon: Icon(Icons.grid_view), onPressed: () {}),
               ],
             ),
           ),
